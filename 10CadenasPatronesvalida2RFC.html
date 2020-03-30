@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/10CadenasPatronesvalida2RFC.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/botton.css">
+<title>Control submit por evento formulario</title>
+</head>
+<body>
+	
+	<form>
+		RFC <input type="text" name="txtRFC" maxlength="13" size="15"/>
+		<br/>
+		<input type="submit" name="boton" class="boton" value="enviar" onclick="return valida(txtRFC);">
+	</form>
+<br>
+<br>
+<label id="mostrar">
+	
+</label>
+
+</body>
+</html>

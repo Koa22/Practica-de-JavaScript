@@ -1,0 +1,31 @@
+.otro{
+
+
+   font-style: italic;
+   color: red;
+   width: 50px;
+   margin-top: 30px;
+   margin-left: 30px;
+}
+
+.marco{
+	border:thin solid silver; 
+	padding: .5em;
+}
+
+/*Actividad 12*/
+.oculto { 
+	display: none; 
+}
+.visible { 
+	display: inline; 
+}
+
+li{
+	background-color: #8FDFDE;
+	list-style-type:  none;
+	margin-left: 30px;
+	padding: 5px;
+	margin-right: 900px;
+	padding-left: 40px;
+}

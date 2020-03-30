@@ -1,0 +1,64 @@
+﻿<!DOCTYPE >
+<html>
+<!--
+Tablas de Multiplicar"
+-->
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="css/botton.css">
+	<title>Tablas de Multiplicar</title>
+	</head>
+	<body>
+
+		<script language="javascript" src="js/varios.js"></script>
+
+		<form>
+			Selecciona que número de tabla
+
+			<select name="opTabla" id="opTabla">
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>
+
+			<p><form method="get" class="formulario">
+		
+		                 <input type="button" class="boton" value="Ejecutar" onclick="muestra(opTabla.value, tabla, document.getElementById('contenido'));"/>
+	            </form></p>
+			<br>
+
+			<div id="contenido" style="visibility:hidden">
+
+				<table id="tabla" border="2" >
+
+					<thead>
+						<th>Operación</th>
+						<th>Resultado</th>
+						<th>Calificacion</th>
+					</thead>
+
+				</table>
+				<br><br>
+
+
+				<form method="get" class="formulario">		
+		                 <input type="button" class="boton" value="Calificar" onclick = "califica(opTabla.value, tabla);"/>
+	            </form>
+
+			</div>
+		</form>
+
+         <br>
+         <center>
+		<label id="aqui" whith="20">			
+			
+		</label></center>
+	</body>
+</html>
